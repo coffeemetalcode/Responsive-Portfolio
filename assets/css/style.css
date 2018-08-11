@@ -195,14 +195,28 @@ button {
     color: #fff;
 }
 
-@media screen and (max-width: 980px) {
 
+@media screen and (max-width: 980px) {
+    body {
+        color: darkorange;
+        width: 980px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
+    body {
+        color: aqua;
+        /* font-size: 80px; */
+        font-size: 48px;
+    }
+    #profile-img {
+        width:384px;
+    }
 }
 
 @media screen and (max-width: 640px) {
-
+    body {
+        color: yellowgreen;
+        /* font-size: 600px; */
+    }
 }
